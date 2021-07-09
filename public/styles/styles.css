@@ -1,0 +1,71 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: rgba(255, 104, 104, 0.185);
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .nav-bar-logo {
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: red;
+}
+
+nav ul {
+  list-style: none;
+  margin: auto;
+}
+
+nav ul li {
+  margin: 0 7px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.header-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.register {
+  margin-top: 60px;
+}
+
+.register section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.login {
+  margin-top: 60px;
+}
+
+.container-sm-custom {
+  width: 50%;
+}
+
+/* Responsive */
+/*# sourceMappingURL=styles.css.map */

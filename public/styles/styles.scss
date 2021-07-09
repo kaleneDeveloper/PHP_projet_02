@@ -1,0 +1,54 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+// HEADER
+nav {
+    background-color: rgba(0, 0, 0, 0.185);
+    height: 70px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    .nav-bar-logo {
+        margin-left: 20px;
+    }
+    a {
+        text-decoration: none;
+    }
+    a:hover {
+        color: red;
+    }
+
+    ul {
+        list-style: none;
+        margin: auto;
+        li {
+            margin: 0 7px;
+        }
+    }
+}
+ul {
+    li {
+        list-style: none;
+    }
+}
+.header-nav {
+    display: flex;
+}
+.register {
+    margin-top: 60px;
+    section {
+        display: flex;
+    }
+}
+.login {
+    margin-top: 60px;
+}
+// CONTAINER
+.container-sm-custom {
+    width: 50%;
+}
+/* Responsive */
+@media screen and (max-width: 720px) {
+}
